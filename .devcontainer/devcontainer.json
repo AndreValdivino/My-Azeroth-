@@ -1,0 +1,10 @@
+
+{
+  "name": "Azeroth Particular",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/rust:1": {},
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y cmake ninja-build build-essential git"
+}
